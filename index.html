@@ -11,148 +11,166 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="CSS/mainStyle.css" />
-    <link rel="stylesheet" href="CSS/landingStyle.css">
+    <link rel="stylesheet" href="CSS/landingStyle.css" />
     <link rel="stylesheet" href="CSS/headerStyle.css" />
 
     <title>Beuty Search</title>
-  </head>   
+  </head>
   <body>
-    <div class="main-block container">
-      <div class="navbar-my-color container-fluid">
-        <header>
-          <div class="container-fluid navbar-my-color navbar-bottom-border">
-            <nav
-              class="
-                navbar navbar-expand-lg navbar-text-my-color navbar-my-color
-              "
-            >
-              <div class="container-fluid navbar-my-color">
-                <a class="navbar-brand" href="#"
-                  ><img src="img/logos/logo.png" alt=""
-                /></a>
-                <button
-                  class="navbar-toggler navbar-my-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
+    <div class="main-block">
+      <header>
+        <div class="container-fluid navbar-my-color navbar-bottom-border">
+          <nav
+            class="
+              navbar navbar-expand-lg navbar-text-my-color navbar-my-color
+            "
+          >
+            <div class="container-fluid navbar-my-color non-pading">
+              <a class="navbar-brand" href="#"
+                ><img src="img/icons/logo.png" alt=""
+              /></a>
+              <button
+                class="navbar-toggler navbar-my-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon">&#9776;</span>
+              </button>
+              <div
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul
+                  class="
+                    navbar-nav
+                    me-auto
+                    mb-2 mb-lg-0
+                    justify-content-center
+                  "
                 >
-                  <span class="navbar-toggler-icon">&#9776;</span>
-                </button>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      ><div class="text">Послуги</div></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><div class="text">Студії</div></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><div class="text">Про нас</div></a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <div class="search-input-box">
+                    <div class="search-button">
+                      <a href="#"
+                        ><img src="/img/icons/searchIcon.png" alt=""
+                      /></a>
+                    </div>
+                    <input
+                      class="search-input"
+                      type="search"
+                      placeholder="Пошук"
+                      aria-label="Search"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="container non-pading">
+        <div class="navbar-my-color container-fluid">
+          <div class="video-block">
+            <div class="row">
+              <div class="col-12 non-pading">
                 <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
+                  id="carouselExampleSlidesOnly"
+                  class="carousel slide"
+                  data-ride="carousel"
                 >
-                  <ul
-                    class="
-                      navbar-nav
-                      me-auto
-                      mb-2 mb-lg-0
-                      justify-content-center
-                    "
-                  >
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#"
-                        ><div class="text">Послуги</div></a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"
-                        ><div class="text">Студії</div></a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"
-                        ><div class="text">Про нас</div></a
-                      >
-                    </li>
-                  </ul>
-                  <form class="d-flex">
-                    <div class="search-input-box">
-                      <div class="search-button">
-                        <a href="#"
-                          ><img src="/img/logos/searchIcon.png" alt=""
-                        /></a>
-                      </div>
-                      <input
-                        class="search-input"
-                        type="search"
-                        placeholder="Пошук"
-                        aria-label="Search"
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        class="d-block w-100"
+                        src="img/content/video.png"
+                        alt="First slide"
                       />
                     </div>
-                  </form>
+                    <div class="carousel-item">
+                      <img
+                        class="d-block w-100"
+                        src="img/content/video1.png"
+                        alt="Second slide"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        class="d-block w-100"
+                        src="img/content/video.png"
+                        alt="Third slide"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </nav>
+            </div>
           </div>
-        </header>
-        <div class="video-block">
-          <div class="row">
-            <div class="col-12">
-              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/logos/video.png" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/logos/video1.png" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/logos/video.png" alt="Third slide">
-                  </div>
-                </div>
+          <div class="map-block">
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <h3>Росташування студій</h3>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12 non-pading">
+                <iframe
+                  width="100%"
+                  height="400px"
+                  src="https://api.mapbox.com/styles/v1/macabre/ckv5f9b743vko15qq33qjflg5.html?title=false&access_token=pk.eyJ1IjoibWFjYWJyZSIsImEiOiJja3Y1ZjV0aGgwcGpnMm9wZzR4OGtjNmd0In0.xj1u05Ul3cy405mGAgrZSA&zoomwheel=false#14.01/49.83598/24.02215"
+                  title="Basic"
+                  style="border: none"
+                ></iframe>
               </div>
             </div>
           </div>
         </div>
-        <div class="map-block">
-          <div class="row mt-4">
-            <div class="col-md-6">
-              <h3>Росташування студій</h3>
-            </div>
-          </div>
-          <div class="row mt-3">
-            <div class="col-12">
-              <iframe
-                width="100%"
-                height="400px"
-                src="https://api.mapbox.com/styles/v1/macabre/ckv5f9b743vko15qq33qjflg5.html?title=false&access_token=pk.eyJ1IjoibWFjYWJyZSIsImEiOiJja3Y1ZjV0aGgwcGpnMm9wZzR4OGtjNmd0In0.xj1u05Ul3cy405mGAgrZSA&zoomwheel=false#14.01/49.83598/24.02215"
-                title="Basic"
-                style="border: none"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-        <footer>
-          <div class="container-fluid footer-my-color footer-top-border">
-            <div class="footer">
-              <div class="row mt-4">
-                <div class="col-md-4">
-                  <div class="text">
-                    Якщо ти хочеш щось запропонувати не соромся, пиши нам!
-                  </div>
-                </div>
-                <div class="col-md-2 mt-4 mt-md-0">
-                  <button class="footer-white-button" type="button" href="#">
-                    <div class="text">Написати</div>
-                  </button>
-                </div>
-                <div class="col-md-2 offset-md-4 mt-4 mt-md-0">
-                  <a class="navbar-brand" href="#"
-                    ><img src="img/logos/logo.png" alt=""
-                  /></a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="footer-margin"></div>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
+      <footer>
+        <div class="container-fluid footer-my-color footer-top-border">
+          <div class="footer">
+            <div class="row mt-4">
+              <div class="col-md-4">
+                <div class="text">
+                  Якщо ти хочеш щось запропонувати не соромся, пиши нам!
+                </div>
+              </div>
+              <div class="col-md-2 mt-4 mt-md-0">
+                <button class="footer-white-button" type="button" href="#">
+                  <div class="text">Написати</div>
+                </button>
+              </div>
+              <div class="col-md-2 offset-md-4 mt-4 mt-md-0">
+                <a class="navbar-brand" href="#"
+                  ><img src="img/icons/logo.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="footer-margin"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -164,6 +182,5 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
   </body>
 </html>
