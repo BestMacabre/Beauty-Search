@@ -8,8 +8,14 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #121416;
+  background-color: var(--color-content);
   overflow-x: hidden;
+}
+.non-pading{
+  padding: 0;
+}
+.non-margin{
+  margin: 0;
 }
 .img {
   width: 100%;
@@ -19,11 +25,10 @@ body {
   height: 100%;
   margin: 0 auto;
   justify-content: center;
-  background-color: var(--color-background);
 }
 :root {
   --color-background: #1e1f25;
-  --color-menu:#222028;
+  --color-content:#222028;
   --color-header: #16151b;
 
   --color-blue-base: #3c5186;
