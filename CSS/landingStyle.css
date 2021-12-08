@@ -1,0 +1,32 @@
+.categories-block {
+  width: 100%;
+  height: auto;
+}
+.categories-block .container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.categories-block a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+}
+.categories-block a:hover {
+  color: #cccccc;
+}
+.categories-block img {
+  position: absolute;
+}
+.categories-block button{
+    width: 200px;
+    height: 30px;
+    align-content: center;
+    background-color: var(--color-blue-dark);
+}
+.categories-block button:hover{
+    background-color: var(--color-blue-base);
+}
