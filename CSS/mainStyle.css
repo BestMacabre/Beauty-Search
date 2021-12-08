@@ -11,10 +11,13 @@ body {
   background-color: var(--color-content);
   overflow-x: hidden;
 }
-.non-pading{
+.background-color{
+  background-color: var(--color-background);
+}
+.non-pading {
   padding: 0;
 }
-.non-margin{
+.non-margin {
   margin: 0;
 }
 .img {
@@ -27,8 +30,8 @@ body {
   justify-content: center;
 }
 :root {
-  --color-background: #1e1f25;
-  --color-content:#222028;
+  --color-content: #1e1f25;
+  --color-background: #222028;
   --color-header: #16151b;
 
   --color-blue-base: #3c5186;
