@@ -25,13 +25,23 @@
   position: absolute;
 }
 .categories-block button{
-    width: 200px;
-    height: 30px;
+    display: flex;
+    max-width: 100%;
+    height: fit-content;
     align-content: center;
+    justify-content: center;
     background-color: var(--color-blue-dark);
 }
 .categories-block button:hover{
     background-color: var(--color-blue-base);
+}
+.categories-block button p{
+    max-width: 100%;
+   justify-content: center;
+   text-align: center;
+   margin: 0rem;
+   line-height: 1.1rem;
+   font-size: 1.1rem;
 }
 .banner-block{
     padding:0;
