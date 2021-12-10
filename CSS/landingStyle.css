@@ -2,13 +2,15 @@
   width: 100%;
   height: auto;
   padding: 35px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .categories-block .container-fluid {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 240px;;
+  height: 240px;
   position: relative;
 }
 .categories-block a {
@@ -22,65 +24,70 @@
 .categories-block img {
   position: absolute;
 }
-.categories-block button{
-    display: flex;
-    max-width: 100%;
-    height: fit-content;
-    align-content: center;
-    justify-content: center;
-    background-color: var(--color-blue-dark);
+.categories-block button {
+  display: flex;
+  max-width: 100%;
+  height: fit-content;
+  align-content: center;
+  justify-content: center;
+  background-color: var(--color-blue-dark);
 }
-.categories-block button:hover{
-    background-color: var(--color-blue-base);
+.categories-block button:hover {
+  background-color: var(--color-blue-base);
 }
-.banner-block{
-    padding:0;
+.banner-block {
+  padding: 0;
 }
-.banner-block .box{
-    width: 100%;
-    padding-top: 50px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom:40px;
+.banner-block .box {
+  width: 100%;
+  padding-top: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
-.banner-block .col-md-6{
-    text-align: center;
+.banner-block .col-md-6 {
+  text-align: center;
 }
-.banner-block h2{
-    color: black;
-    margin-top: 100px;
+.banner-block h2 {
+  color: black;
+  margin-top: 100px;
 }
-.banner-block p{
-    width: 200px;
-    color: black;
+.banner-block p {
+  width: 200px;
+  color: black;
 }
-.banner-block .row{
-    background: rgb(134,165,243);
-    background: linear-gradient(90deg, rgba(134,165,243,1) 0%, rgba(242,228,255,1) 80%, rgba(105,53,124,1) 100%);
+.banner-block .row {
+  background: rgb(134, 165, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(134, 165, 243, 1) 0%,
+    rgba(242, 228, 255, 1) 80%,
+    rgba(105, 53, 124, 1) 100%
+  );
 }
-.banner-block button{
-    width: 200px;
-    height: 30px;
-    align-content: center;
-    background-color: var(--color-blue-dark);
-    margin-bottom: 100px;
+.banner-block button {
+  width: 200px;
+  height: 30px;
+  align-content: center;
+  background-color: var(--color-blue-dark);
+  margin-bottom: 100px;
 }
-.banner-block button:hover{
-    background-color: var(--color-blue-base);
+.banner-block button:hover {
+  background-color: var(--color-blue-base);
 }
-.banner-block a button p{
-    color: white;
+.banner-block a button p {
+  color: white;
 }
-.categories-block button p{
-    max-width: 100%;
-   justify-content: center;
-   text-align: center;
-   margin: 0rem;
-   line-height: 1.1rem;
-   font-size: 1.1rem;
+.categories-block button p {
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 0rem;
+  line-height: 1.1rem;
+  font-size: 1.1rem;
 }
-.map-block h3{
-    padding-left: 35px;
+.map-block h3 {
+  padding-left: 35px;
 }
