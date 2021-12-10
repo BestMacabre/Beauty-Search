@@ -1,3 +1,25 @@
+.carousel-block h1 {
+  color: white;
+  text-align: center;
+}
+.carousel-image {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: fit-content;
+  width: 100%;
+}
+#purple-block {
+  background-color: var(--color-purple-dark);
+}
+#magenta-block {
+  background-color: var(--color-purple-base);
+}
+#dark-blue-block {
+  background-color: var(--color-blue-dark);
+}
+#blue-block {
+  background-color: var(--color-blue-light);
+}
 .categories-block {
   width: 100%;
   height: auto;
@@ -45,7 +67,7 @@
   align-items: center;
   margin-bottom: 40px;
 }
-.banner-block .col-md-6 {
+.banner-block .col-md-5 {
   text-align: center;
 }
 .banner-block h2 {
