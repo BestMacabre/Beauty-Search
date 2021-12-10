@@ -2,6 +2,8 @@
   width: 100%;
   height: auto;
   padding: 35px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .categories-block .container-fluid {
   display: flex;
@@ -41,7 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom:40px;
 }
 .banner-block .col-md-6{
     text-align: center;
@@ -58,6 +60,19 @@
     background: rgb(134,165,243);
     background: linear-gradient(90deg, rgba(134,165,243,1) 0%, rgba(242,228,255,1) 80%, rgba(105,53,124,1) 100%);
 }
+.banner-block button{
+    width: 200px;
+    height: 30px;
+    align-content: center;
+    background-color: var(--color-blue-dark);
+    margin-bottom: 100px;
+}
+.banner-block button:hover{
+    background-color: var(--color-blue-base);
+}
+.banner-block a button p{
+    color: white;
+}
 h3{
-    padding-left: 35px;
+    padding-left: 100px;
 }
