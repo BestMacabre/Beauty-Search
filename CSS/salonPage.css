@@ -51,11 +51,11 @@
   color: black;
 }
 .comment-box {
-  height: 125px;
+  height: 120px;
   width: 100%;
   background-color: white;
   border-radius: 20px;
-  padding: 10px;
+  padding: 15px;
 }
 .black-button {
   background-color: black;
@@ -73,19 +73,25 @@
   color: black;
   font-size: 0.75rem;
   line-height: 0.9rem;
-  height: 2.65rem;
+}
+.comment-box h5{
+  color: black;
+  font-size: 0.85rem;
+}
+.comment-box .col-12 p{
+  height: 1.8rem;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-
 .comment-box a {
   text-decoration: none;
 }
 .comment-box a span{
   color: var(--color-purple-light);
+  font-size:1rem;
 }
 .comment-box .col-12{
   height: 2.5rem;
@@ -97,14 +103,14 @@
   background:none;
   border:none;
   position: absolute; 
-  margin-top: 5px;
+  margin-top: -10px;
 }
 .modal-body h5{
   color:black;
 }
-.modal-body{
+.modal-content{
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 .comments-block h3 {
   padding-left: 35px;
