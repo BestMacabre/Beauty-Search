@@ -1,0 +1,117 @@
+.functions-block {
+  background-color: var(--color-purple-base);
+}
+.functions-block .container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 200px;
+  background-color: var(--color-purple-base);
+}
+.functions-block .nav-link span {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.functions-block .nav-link p:hover {
+  transform: scale(1.1);
+}
+.functions-block .nav-link {
+  height: 40px;
+  border: none;
+}
+.functions-block .nav-link:after {
+  background-color: var(--color-purple-base);
+}
+.functions-block .nav-tabs .nav-link.active {
+  background-color: var(--color-purple-base);
+  border: 1px white solid;
+}
+.functions-block .nav-tabs .nav-link.active p {
+  transform: scale(1.2);
+}
+.functions-block li {
+  list-style-type: none;
+}
+.functions-block #nav-make-up,
+.functions-block #nav-manikiur,
+.functions-block #nav-stryzky {
+  background-color: var(--color-purple-base);
+}
+.functions-block #nav-brovy,
+.functions-block #nav-farbuvanya {
+  background-color: var(--color-purple-base);
+}
+.functions-block .nav-tabs {
+  border: none;
+}
+.comment-carousel {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.comments-block span {
+  color: black;
+}
+.comment-box {
+  height: 120px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+}
+.black-button {
+  background-color: black;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+.user-icon {
+  height: 40px;
+  width: 40px;
+}
+.comment-box p,
+.comment-box span {
+  color: black;
+  font-size: 0.75rem;
+  line-height: 0.9rem;
+}
+.comment-box h5{
+  color: black;
+  font-size: 0.85rem;
+}
+.comment-box .col-12 p{
+  height: 1.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.comment-box a {
+  text-decoration: none;
+}
+.comment-box a span{
+  color: var(--color-purple-light);
+  font-size:1rem;
+}
+.comment-box .col-12{
+  height: 2.5rem;
+}
+.modal-backdrop {
+  z-index: 0;
+}
+.modal-btn{
+  background:none;
+  border:none;
+  position: absolute; 
+  margin-top: -10px;
+}
+.modal-body h5{
+  color:black;
+}
+.modal-content{
+  border-radius: 20px;
+  padding: 10px;
+}
+.comments-block h3 {
+  padding-left: 35px;
+}
