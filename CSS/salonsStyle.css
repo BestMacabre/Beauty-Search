@@ -1,0 +1,37 @@
+.district-salons-block .dropdown-menu span{
+    background-color: gray;
+}
+.district-salons-block .choose-district-button .col-9 span{
+    color: gray;
+}
+.district-salons-block .choose-district-button span{
+    color: white;
+}
+.district-salons-block .choose-district-button .col-2 span{
+    margin-bottom:20px;
+}
+.district-salons-block p{
+    color: white;
+}
+.choose-district-button{
+    min-width:20rem;
+    border-radius: 1000px;
+    border: solid 1px white;
+    background-color: #222028;
+}
+.dropdown-menu{
+    border: 1px solid white;
+    background-color:#222028;
+    padding:0;
+    min-width: 20rem;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: gray;
+}
+.nav-link {
+    color:white;
+    max-height: 3rem;
+}
+.nav-link:hover {
+    color:gray;
+}
