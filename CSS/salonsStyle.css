@@ -8,7 +8,7 @@
     color: white;
 }
 .district-salons-block .choose-district-button .col-2 span{
-    margin-bottom:20px;
+    margin-bottom:1rem;
 }
 .district-salons-block p{
     color: white;
@@ -34,4 +34,52 @@
 }
 .nav-link:hover {
     color:gray;
+}
+.card{
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+.card img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 1px solid grey;
+}
+.carousel-item .col-3{
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 2.5%;
+}
+.card-button{
+    text-decoration: none;  
+    border-radius:1000px; 
+    width: 100%;
+    color:black;
+    background-color:var(--color-blue-light);
+    padding:0.25rem;
+}
+.card-button span{
+    color:black;
+    font-size: 0.8rem;
+}
+.card-button:hover,
+.card-button:focus{
+    color:white;
+    background-color:var(--color-blue-dark);
+}
+.card-button span:hover{
+    color:white;
+}
+.carousel-item .row{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.card p{
+    margin-bottom:0.4rem;
+    font-size: 0.7rem;
+}
+.card h6{
+    margin-bottom:0.3rem;
+    font-size: 0.9rem;
 }
