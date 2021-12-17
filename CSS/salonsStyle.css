@@ -3,6 +3,7 @@
 }
 .district-salons-block .choose-district-button .col-8 span{
     color: gray;
+    font-size: 0.8rem;
 }
 .district-salons-block .choose-district-button span{
     color: white;
@@ -14,16 +15,16 @@
     color: white;
 }
 .choose-district-button{
-    min-width:15rem;
+    min-width: 15rem;
     border-radius: 1000px;
     border: solid 1px white;
     background-color: #222028;
 }
 .dropdown-menu{
+    min-width: 15rem;
     border: 1px solid white;
     background-color:#222028;
     padding:0;
-    min-width: 15rem;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: gray;
@@ -55,15 +56,16 @@
     text-decoration: none;  
     border-radius:1000px; 
     min-width: 100%;
-    min-height:10px;
+    min-height:1rem;
     color:black;
     background-color:var(--color-blue-light);
     padding:0.1rem;
-    padding-bottom:0.3rem;
+    display:flex;
+    justify-content: center;
 }
 .card-button span{
     color:black;
-    font-size: 0.55rem;
+    font-size: 0.8rem;
 }
 .card-button:hover,
 .card-button:focus{
@@ -79,12 +81,15 @@
 }
 .card p{
     margin-bottom:0.4rem;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 .card h6{
     margin-bottom:0.3rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .card-body{
     padding:0.5rem;
+}
+h3{
+    color: white !important;;
 }
