@@ -66,11 +66,12 @@ input[type="search"]::-webkit-search-cancel-button {
 .navbar-my-toggler:hover {
   color: white;
   border-color: white;
-  border: none;
+  box-shadow: none;
 }
 .navbar-my-toggler:focus {
   color: white;
   border-color: white;
+  box-shadow: none;
 }
 /*Footer*/
 .footer-top-border {
@@ -89,6 +90,7 @@ input[type="search"]::-webkit-search-cancel-button {
   border: none;
   height: 30px;
   max-width: 100%;
+  font-size: 0.8rem;
 }
 .footer-white-button .text {
   color: black;
