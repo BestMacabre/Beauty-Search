@@ -2,7 +2,7 @@
 	width: 100%;
 	height: 40rem;
 	border: 1px solid #000000;
-	background-image: url(/img/content/404/background.png);
+	background-image: url(img);
 	background-repeat: no-repeat; 
     background-size: cover;
 }
