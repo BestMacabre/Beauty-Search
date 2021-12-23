@@ -39,13 +39,16 @@ width: 100%;
   margin: 0rem!important;
   padding: .5rem;
 }
+.studio_wrapper .footer-white-button:hover{
+  background-color:var(--color-blue-base);
+}
 .functions-block {
   background-color: var(--color-purple-base);
 }
 .functions-block .container-fluid {
   padding-top: 20px;
   padding-bottom: 20px;
-  min-height: 200px;
+  min-height: 25rem;
   background-color: var(--color-purple-base);
 }
 .functions-block .nav-link span {
