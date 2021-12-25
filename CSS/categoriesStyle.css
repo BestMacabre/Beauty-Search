@@ -59,6 +59,14 @@
     font-weight: 400;
     color: white!important;
     text-decoration: none;
+    transition: 0.2s;
+}
+.topline a:hover, .bottomline a:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition-property: all;
+    text-shadow: 0 4px 4px #;
+    max-width: 100%;
 }
 .topline .pillar{
     display: flex;
