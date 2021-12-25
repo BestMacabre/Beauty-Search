@@ -49,6 +49,7 @@
   max-width: 100%;
   height: fit-content;
   align-content: center;
+  padding:0.5rem;
   justify-content: center;
   background-color: var(--color-blue-dark);
 }

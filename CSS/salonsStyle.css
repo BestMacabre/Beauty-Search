@@ -16,7 +16,7 @@
 }
 .choose-district-button{
     min-width: 15rem;
-    border-radius: 1000px;
+    border-radius: 20px;
     border: solid 1px white;
     background-color: #222028;
 }
@@ -40,13 +40,12 @@
     background-color: black;
     border-radius: 25px;
     border: 1px solid grey;
+    min-height: 11rem;
 }
 .card img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border: 1px solid grey;
-}
-.carousel-item .col-3{
 }
 .carousel-control-next,
 .carousel-control-prev {
@@ -89,6 +88,9 @@
 }
 .card-body{
     padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 h3{
     color: white !important;;

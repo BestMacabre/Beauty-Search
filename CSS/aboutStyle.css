@@ -1,3 +1,6 @@
 .icon{ 
-    margin-left: 10px; 
+    margin-left: 10px;  
+}
+.icon img{
+    width: 7.5%;
 }
