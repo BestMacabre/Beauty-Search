@@ -1,124 +1,283 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="CSS/mainStyle.css" />
-    <link rel="stylesheet" href="CSS/landingStyle.css" />
-    <link rel="stylesheet" href="CSS/headerStyle.css" />
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+      crossorigin="anonymous" 
+    /> 
+    <link rel="stylesheet" href="CSS/mainStyle.css" /> 
+    <link rel="stylesheet" href="CSS/landingStyle.css" /> 
+    <link rel="stylesheet" href="CSS/headerStyle.css" /> 
+    <link rel="stylesheet" href="CSS/aboutStyle.css"> 
+ 
+    <title>Beuty Search</title> 
+  </head> 
+  <body> 
+    <div class="container"> 
+      <header> 
+        <div class="container-fluid navbar-my-color navbar-bottom-border"> 
+          <nav 
+            class="navbar navbar-expand-lg navbar-text-my-color navbar-my-color" 
+          > 
+            <div class="container-fluid navbar-my-color"> 
+              <a class="navbar-brand main-icon" href="index.html" 
+                ><img src="img/icons/logo.png" alt="" 
+              /></a> 
+              <button 
+                class="navbar-toggler navbar-my-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation" 
+              > 
+                <span class="navbar-toggler-icon">&#9776;</span> 
+              </button> 
+              <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+                <ul 
+                  class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center" 
+                > 
+                  <li class="nav-item"> 
+                    <a class="nav-link active" aria-current="page" href="categories.html" 
+                      ><div class="text">Послуги</div></a 
+                    > 
+                  </li> 
+                  <li class="nav-item"> 
+                    <a class="nav-link" href="salons.html" 
+                      ><div class="text">Студії</div></a 
+                    > 
+                  </li> 
+                  <li class="nav-item"> 
+                    <a class="nav-link" href="about.html" 
+                      ><div class="text">Про нас</div></a 
+                    > 
+                  </li> 
+                  <li class="nav-item"> 
+                    <a class="nav-link" href="404.html" 
+                      ><div class="text">404</div></a 
+                    > 
+                  </li> 
+                </ul> 
+                <form class="d-flex"> 
+                  <div class="search-input-box"> 
+                    <div class="search-button"> 
+                      <a href="#" 
+                        ><img src="/img/icons/searchIcon.png" alt="" 
+                      /></a> 
+                    </div> 
+                    <input 
+                      class="search-input" 
+                      type="search" 
+                      placeholder="Пошук" 
+                      aria-label="Search" 
+                    /> 
+                  </div> 
+                </form> 
+              </div> 
+            </div> 
+          </nav> 
+        </div> 
+      </header> 
+ 
+      <div class="container non-pading"> 
+        <div class="background-color container-fluid"> 
+          <div class="carousel-block"> 
+            <div class="row"> 
+              <div class="col-12 non-pading"> 
+                <div 
+                  id="carouselExampleInterval" 
+                  class="carousel slide" 
+                  data-bs-ride="carousel" 
+                > 
+                  <div class="carousel-inner"> 
+                    <div class="carousel-item active" data-bs-interval="3000"> 
+                      <img 
+                        src="img/content/landing/landingCarousel/carouselItem.png" 
+                        class="d-block w-100"
 
-    <title>Beuty Search</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="container-fluid navbar-my-color navbar-bottom-border">
-          <nav
-            class="navbar navbar-expand-lg navbar-text-my-color navbar-my-color"
-          >
-            <div class="container-fluid navbar-my-color">
-              <a class="navbar-brand main-icon" href="index.html"
-                ><img src="img/icons/logo.png" alt=""
-              /></a>
-              <button
-                class="navbar-toggler navbar-my-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon">&#9776;</span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul
-                  class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center"
-                >
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="categories.html"
-                      ><div class="text">Послуги</div></a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="salons.html"
-                      ><div class="text">Студії</div></a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"
-                      ><div class="text" id="current-page">Про нас</div></a
-                    >
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <div class="search-input-box">
-                    <div class="search-button">
-                      <a href="#"
-                        ><img src="img/icons/searchIcon.png" alt=""
-                      /></a>
-                    </div>
-                    <input
-                      class="search-input"
-                      type="search"
-                      placeholder="Пошук"
-                      aria-label="Search"
-                    />
-                  </div>
-                </form>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
-      <div class="container non-pading">
-        <div class="background-color container-fluid">
-          
-        </div>
-    <footer>
-      <div class="container-fluid footer-my-color footer-top-border">
-        <div class="footer">
-          <div class="row mt-4">
-            <div class="col-md-4">
-              <div class="text">
-                Якщо ти хочеш щось запропонувати не соромся, пиши нам!
-              </div>
-            </div>
-            <div class="col-md-2 mt-4 mt-md-0">
-              <a href="#">
-              <button class="footer-white-button" type="button" href="#">
-                <div class="text">Написати</div>
-              </button>
-            </a>
-            </div>
-            <div class="col-md-2 offset-md-4 mt-4 mt-md-0">
-              <a class="navbar-brand" href="#"
-                ><img src="img/icons/logo.png" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="footer-margin"></div>
-          </div>
-        </div>
-      </div>
-    </footer> 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-  </body> 
-</html>
+alt="..." 
+                      /> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                      <img 
+                        src="img/content/landing/landingCarousel/carouselItem1.png" 
+                        class="d-block w-100" 
+                        alt="..." 
+                      /> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                      <img 
+                        src="img/content/landing/landingCarousel/carouselItem2.png" 
+                        class="d-block w-100" 
+                        alt="..." 
+                      /> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                      <img 
+                        src="img/content/landing/landingCarousel/carouselItem3.png" 
+                        class="d-block w-100" 
+                        alt="..." 
+                      /> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                      <img 
+                        src="img/content/landing/landingCarousel/carouselItem4.png" 
+                        class="d-block w-100" 
+                        alt="..." 
+                      /> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                      <img 
+                        src="img/content/landing/landingCarousel/carouselItem5.png" 
+                        class="d-block w-100" 
+                        alt="..." 
+                      /> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                      <img 
+                        src="img/content/landing/landingCarousel/carouselItem6.png" 
+                        class="d-block w-100" 
+                        alt="..." 
+                      /> 
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="3000"> 
+                      <img 
+                        src="img/content/landing/landingCarousel/carouselItem7.png" 
+                        class="d-block w-100" 
+                        alt="..." 
+                      /> 
+                    </div> 
+                  </div> 
+                  <button 
+                    class="carousel-control-prev" 
+                    type="button" 
+                    data-bs-target="#carouselExampleInterval" 
+                    data-bs-slide="prev" 
+                  > 
+                    <span 
+                      class="carousel-control-prev-icon" 
+                      aria-hidden="true" 
+                    ></span> 
+                    <span class="visually-hidden">Previous</span> 
+                  </button> 
+                  <button 
+                    class="carousel-control-next" 
+                    type="button" 
+                    data-bs-target="#carouselExampleInterval" 
+                    data-bs-slide="next" 
+                  > 
+                    <span 
+                      class="carousel-control-next-icon" 
+                      aria-hidden="true" 
+                    ></span> 
+                    <span class="visually-hidden">Next</span> 
+                  </button> 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+          <div class="text-block container-fluid"> 
+            <div class="row mt-4"><h3>Історія проекту:</h3></div> 
+            <div class="row mt-2"><p>Проект дуже цікавий і класний. Ми працювали багато часу для того, щоб зробити зручний сервіс для наших клієнтів! Проект дуже цікавий і класний. Ми працювали багато часу для того, щоб зробити зручний сервіс для наших клієнтів! Проект дуже цікавий і класний. Ми працювали багато часу для того, щоб зробити зручний сервіс для наших клієнтів! Проект дуже цікавий і класний. Ми працювали багато часу для того, щоб зробити зручний сервіс для наших клієнтів! </p> 
+            </div> 
+          </div> 
+            <div class="row mt-4 justify-content-center"> 
+              <div class="col-lg-4 col-md-6"> 
+                <div class="container-fluid"> 
+                <img 
+                  class="img-fluid" 
+                  src="img/content/about/Rectangle 7.png" 
+                  alt=""/> 
+              </div> 
+              <div class="row mt-3"> 
+                <p class="text-center"> 
+                  <span>Данило Шляхетко</span> 
+                  <span class="icon"> 
+                    <a href=""><img src="img/icons/Instagram.png" alt=""></a> 
+                  </span> 
+                </p> 
+              </div> 
+            </div> 
+            <div class="col-lg-4 col-md-6"> 
+              <div class="container-fluid"> 
+              <img 
+                class="img-fluid" 
+                src="img/content/about/Rectangle 10.png" 
+                alt="" 
+              /> 
+            </div> 
+            <div class="row mt-3"> 
+              <p class="text-center"> 
+                <span>Софія Зубчук</span> 
+                <span class="icon"> 
+                  <a href="https://www.instagram.com/melarsis/"><img src="img/icons/Instagram.png" alt=""></a> 
+                </span> 
+              </p> 
+            </div> 
+             
+          </div> 
+          <div class="col-lg-4 col-md-6"> 
+            <div class="container-fluid"> 
+            <img 
+              class="img-fluid" 
+              src="img/content/about/Rectangle 9.png" 
+              alt="" 
+            /> 
+          </div> 
+          <div class="row mt-3"> 
+            <p class="text-center"> 
+              <span>Ігор Зінов’єв</span> 
+              <span class="icon"> 
+                <a href="https://www.instagram.com/tiningvar/"><img src="img/icons/Instagram.png" alt=""></a> 
+              </span> 
+            </p> 
+            </div> 
+        </div> 
+        </div> 
+    </div> 
+          <footer> 
+            <div class="container-fluid footer-my-color footer-top-border"> 
+              <div class="footer"> 
+                <div class="row mt-4"> 
+                  <div class="col-md-4"> 
+                    <div class="text"> 
+                      Якщо ти хочеш щось запропонувати не соромся, пиши нам! 
+                    </div> 
+                  </div> 
+                  <div class="col-md-2 mt-4 mt-md-0"> 
+                    <a href="#"> 
+                    <button class="footer-white-button" type="button" href="#"> 
+                      <div class="text">Написати</div> 
+                    </button> 
+                  </a> 
+                  </div> 
+                  <div class="col-md-2 offset-md-4 mt-4 mt-md-0"> 
+                    <a class="navbar-brand" href="#" 
+                      ><img src="img/icons/logo.png" alt="" 
+                    /></a> 
+                  </div> 
+                </div> 
+                <div class="row"> 
+                  <div class="footer-margin"></div> 
+                </div> 
+              </div> 
+            </div> 
+          </footer>  
+          <script 
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+            crossorigin="anonymous" 
+          ></script> 
+          <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+            crossorigin="anonymous" 
+          ></script> 
+        </body>  
+      </html>
