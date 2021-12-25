@@ -2,9 +2,12 @@
 	width: 100%;
 	height: 40rem;
 	border: 1px solid #000000;
-	background-image: url(img);
+	background-image: url(/img/content/404/background.png);
 	background-repeat: no-repeat; 
     background-size: cover;
+}
+.error-page-test{
+    height: calc(100vh - 1000px);
 }
 .img {
     text-align: center;
@@ -17,7 +20,7 @@
     text-align: center;
     border-radius: 20px;
     position: absolute; 
-    top: 55%; 
+    top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
 }
