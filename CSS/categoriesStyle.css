@@ -4,7 +4,7 @@
 .row{
     padding: 1rem 0rem;
 }
-.footer row{
+.footer .row{
     padding: 0rem;
 }
 .card{
