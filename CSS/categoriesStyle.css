@@ -4,6 +4,9 @@
 .row{
     padding: 1rem 0rem;
 }
+.footer row{
+    padding: 0rem;
+}
 .card{
     background-color: rgb(255, 255, 255, 0.0);
     border: 0px;
