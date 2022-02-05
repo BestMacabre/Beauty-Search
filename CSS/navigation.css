@@ -1,0 +1,104 @@
+header {
+  background-color: var(--color-header);
+  position: relative;
+  min-height: 3em;
+}
+header ul {
+  padding: 0.5em;
+  padding-left: 0em;
+  padding-right: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header li {
+  line-height: 3em;
+  list-style-type: none;
+}
+header .main-logo {
+  top:0.2em;
+  margin-left: 0.75em !important;
+  position: absolute;
+}
+header li:first-of-type{
+  opacity: 0;
+  margin-left: 0.75em !important;
+}
+header li:last-of-type {
+  width: 5em;
+  line-height: 1.5em;
+}
+header input {
+  padding-left: 0.5em;
+  background-color: var(--color-content);
+  border: 1px solid white;
+  border-radius: 1em;
+}
+.nav-toggler {
+  top: 0.4em;
+  right: 0.5em;
+  position: absolute;
+  font-size: 1.5em;
+  border: none;
+  color: white;
+  background: none;
+}
+.toggler-shape,
+.toggler-shape.opened {
+  height: 0.15em;
+  width: 1em;
+  position: relative;
+  background-color: white;
+  transition: 0.5s;
+}
+.toggler-shape:after,
+.toggler-shape.opened:after {
+  opacity: 1;
+  top: 0.4em;
+  left: 0;
+  height: 0.15em;
+  width: 1em;
+  position: absolute;
+  background-color: white;
+  content: "";
+  transition: 0.5s;
+}
+.toggler-shape::before,
+.toggler-shape.opened::before {
+  left: 0;
+  height: 0.15em;
+  width: 1em;
+  position: absolute;
+  background-color: white;
+  content: "";
+  transform: translateY(0.8em);
+  transition: 0.5s;
+}
+.toggler-shape.closed {
+  margin-top: 0.5em;
+  height: 0.15em;
+  width: 1em;
+  position: relative;
+  background-color: white;
+  transition: 0.5s;
+  transform: rotate(45deg);
+}
+.toggler-shape.closed:after {
+  top:0;
+  left:0;
+  opacity: 0;
+  content: "";
+  transform: rotate(-45deg);
+  transition: 0.5s;
+}
+.toggler-shape.closed::before {
+  top: 0;
+  left: 0;
+  height: 0.15em;
+  width: 1em;
+  position: absolute;
+  background-color: white;
+  content: "";
+  transform: rotate(-90deg);
+  transition: 0.5s;
+}
