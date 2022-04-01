@@ -1,0 +1,129 @@
+div[class*="-modal"]{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    display: none;
+    z-index: 50;
+    margin:0;
+    padding:0;
+}
+div[class*="-modal"] .modal-background {
+  /* opacity: 0; */
+  transition: 2s;
+  background-color: black;
+  width: 100vw;
+  height: 100%;
+  position:relative;
+  animation: closing 1s;
+  margin:0;
+  padding:0;
+}
+div[class*="-modal"].active {
+    display:block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+div[class*="-modal"].active .modal-background {
+  opacity: 0.5;
+  animation: showingBackground 1s;
+  /* animation-iteration-count: 1; */
+}
+div[class*="-modal"].active .modal-body {
+    opacity: 0.5;
+    animation: showingBody 1s;
+    /* animation-iteration-count: 1; */
+  }
+  /* div[class*="-modal"].active::-webkit-scrollbar-track{
+
+  } */
+div[class*="-modal"].closing  {
+    opacity: 0;
+    animation: showing 1s;
+    animation-direction: reverse;
+    /* animation-iteration-count: 1; */
+  }
+  /* div[class*="-modal"].closing .modal-body {
+    opacity: 0.5;
+    animation: showingBody 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+  } */
+  @keyframes showing{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes showingBackground{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:0.5;
+    }
+}
+/* @keyframes closingBackground{
+    0%{
+        opacity:0.5;
+    }
+    100%{
+        opacity:0;
+    }
+} */
+@keyframes showingBody{
+    0%{
+        transform: translate(-50%, -100em);
+    }
+    75%{
+        transform: translate(-50%, 5em);
+    }
+    100%{
+        transform: translate(-48%, -50%);
+    }
+}
+/* @keyframes closingBody{
+    0%{
+        opacity:0.5;
+    }
+    100%{
+        opacity:0;
+    }
+} */
+.modal-body {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  background: var(--color-content);
+  opacity: 1 !important;
+  border-radius: 1em;
+  z-index: 51;
+}
+
+.modal-body .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-clip: padding-box;
+    outline: 0;
+}
+.modal-body .content > *{
+    margin-bottom: 1em;
+}
+.modal-body .content > *:last-child{
+    margin: 0!important;
+}
+.modal-body button{
+    transition: 0.5s;
+}
+.modal-body button:hover{
+    transform: scaleY(1.1) scaleX(1.05);
+    background-color:#888;
+    color:white;
+}
