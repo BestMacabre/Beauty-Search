@@ -1,73 +1,81 @@
-.carousel-block h1 {
-  color: white;
-  text-align: center;
+.container {
+  padding: 0;
+  background-color: var(--color-content);
 }
-.carousel-image {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  height: fit-content;
-  width: 100%;
-}
-#purple-block {
-  background-color: var(--color-purple-dark);
-}
-#magenta-block {
-  background-color: var(--color-purple-base);
-}
-#dark-blue-block {
-  background-color: var(--color-blue-dark);
-}
-#blue-block {
-  background-color: var(--color-blue-light);
-}
-.categories-block {
-  width: 100%;
-  height: auto;
-  padding: 35px;
-}
-.categories-block .container-fluid {
+.category {
+  border-radius: 1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 240px;
+  margin-bottom: 5%;
+}
+.category .img-fluid {
   position: relative;
+  border-radius: 1.5em;
+  transition: 0.5s;
 }
-.categories-block a {
-  color: white;
-  text-decoration: none;
+.category a, .category button {
   position: absolute;
+  z-index: 2;
+  transition: 0.5s;
 }
-.categories-block a:hover {
-  color: #cccccc;
+.category a h2 {
+  transition: 0.5s;
 }
-.categories-block img {
+.category .shadow {
   position: absolute;
+  border-radius: 1.5em;
+  background: black;
+  opacity: 0.6;
+  transition: 0.5s;
+  z-index: 1;
 }
-.categories-block button {
-  display: flex;
-  max-width: 100%;
-  height: fit-content;
-  align-content: center;
-  padding:0.5rem;
-  justify-content: center;
+.catergories-block .row>*{
+  padding-left:0.5em;
+  padding-right:0.5em;
+}
+.categories-btn {
   background-color: var(--color-blue-dark);
+  color: white;
+  transition: 0.5s;
 }
-.categories-block button:hover {
-  background-color: var(--color-blue-base);
+.category:hover .shadow {
+  opacity: 0.25;
+  transform: scale(1.05);
 }
-.categories-block button p {
-  max-width: 100%;
-  justify-content: center;
-  text-align: center;
-  margin: 0rem;
-  line-height: 1.1rem;
-  font-size: 1.1rem;
+.category:hover button {
+  transform: scale(1.15);
 }
-.banner-block {
-  padding: 0;
+.category:hover .img-fluid {
+  transform: scale(1.05);
 }
-.banner-block .box {
+.category:hover a h2 {
+  transform: scale(1.15);
+  /* color: #ccc; */
+}
+.banner-block > .row {
+  --bs-gutter-x: 0 !important;
+}
+.banner-block:hover .atention-block {
+  transform: scale(1.1);
+  /* animation: pulse 0.5s infinite; */
+}
+.banner-block:hover .image-block {
+  transform: scaleX(1);
+  /* animation: pulse 0.5s infinite; */
+}
+/* @keayframes pulse{
+  0%{
+    transform: scaleX(0.95);
+  }
+  50%{
+    transform: scaleX(1);
+  }
+  100%{
+    transform: scaleX(0.95);
+  }
+} */
+.banner-block .content {
   width: 100%;
   padding-top: 50px;
   height: 20px;
@@ -76,8 +84,10 @@
   align-items: center;
   margin-bottom: 60px;
 }
-.banner-block .atention {
+.banner-block .atention-block {
+  transition: 0.5s;
   text-align: center;
+  transform: scaleX(0.95);
 }
 .banner-block h2 {
   color: black;
@@ -94,7 +104,7 @@
     90deg,
     rgba(134, 165, 243, 1) 0%,
     rgba(242, 228, 255, 1) 80%,
-    rgba(105, 53, 124, 1) 100%
+    rgb(44, 12, 56) 100%
   );
 }
 .banner-block button {
@@ -103,17 +113,23 @@
   align-content: center;
   background-color: var(--color-blue-dark);
   margin-bottom: 20px;
+  transition:0.5s;
 }
-.banner-block .col-lg-5{
-padding-left: 40px;
+.banner-block .image-block {
+  transition: 0.5s;
+  padding-left: 40px;
+  transform: scaleX(0.95);
 }
 .banner-block button:hover {
   background-color: var(--color-blue-base);
+  transform:scale(1.2);
 }
-.banner-block a button p {
+.banner-block .subscribe-btn {
   color: white;
 }
-.map-block h3 {
-  padding-left: 35px;
+.top-block .col-lg-3.col-md-6 {
+  padding: 0.75em;
 }
-
+.map-block .col-12{
+  height:400px;
+}

@@ -1,0 +1,11 @@
+header, footer *, h1, .gallery, .category, .banner-block, .salon-card, iframe{
+    transition: 1s;
+    opacity:1;
+}
+.not-active{
+    opacity:0;
+    transform:translateY(-2.5em) scale(1.1);
+}
+.category.not-active, .salon-card.not-active{
+    transform: translateX(-2.5em) translateY(-2.5em) scale(1.1);
+}

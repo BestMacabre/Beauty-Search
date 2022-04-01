@@ -1,0 +1,119 @@
+.carousel-block h1 {
+  color: white;
+  text-align: center;
+}
+.carousel-image {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: fit-content;
+  width: 100%;
+}
+#purple-block {
+  background-color: var(--color-purple-dark);
+}
+#magenta-block {
+  background-color: var(--color-purple-base);
+}
+#dark-blue-block {
+  background-color: var(--color-blue-dark);
+}
+#blue-block {
+  background-color: var(--color-blue-light);
+}
+.categories-block {
+  width: 100%;
+  height: auto;
+  padding: 35px;
+}
+.categories-block .container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 240px;
+  position: relative;
+}
+.categories-block a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+}
+.categories-block a:hover {
+  color: #cccccc;
+}
+.categories-block img {
+  position: absolute;
+}
+.categories-block button {
+  display: flex;
+  max-width: 100%;
+  height: fit-content;
+  align-content: center;
+  padding:0.5rem;
+  justify-content: center;
+  background-color: var(--color-blue-dark);
+}
+.categories-block button:hover {
+  background-color: var(--color-blue-base);
+}
+.categories-block button p {
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 0rem;
+  line-height: 1.1rem;
+  font-size: 1.1rem;
+}
+.banner-block {
+  padding: 0;
+}
+.banner-block .box {
+  width: 100%;
+  padding-top: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.banner-block .atention {
+  text-align: center;
+}
+.banner-block h2 {
+  color: black;
+  margin-top: 100px;
+}
+.banner-block p {
+  max-width: 200px;
+  color: black;
+  margin: 0rem !important;
+}
+.banner-block .row {
+  background: rgb(134, 165, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(134, 165, 243, 1) 0%,
+    rgba(242, 228, 255, 1) 80%,
+    rgba(105, 53, 124, 1) 100%
+  );
+}
+.banner-block button {
+  width: 200px;
+  height: 30px;
+  align-content: center;
+  background-color: var(--color-blue-dark);
+  margin-bottom: 20px;
+}
+.banner-block .col-lg-5{
+padding-left: 40px;
+}
+.banner-block button:hover {
+  background-color: var(--color-blue-base);
+}
+.banner-block a button p {
+  color: white;
+}
+.map-block h3 {
+  padding-left: 35px;
+}
+
